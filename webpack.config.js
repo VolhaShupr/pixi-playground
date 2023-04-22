@@ -7,7 +7,8 @@ module.exports = {
     mode: "development",
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'game.bundle.js'
+        filename: 'game.bundle.js',
+        publicPath: "./"
     },
     devServer: {
         compress: true,
